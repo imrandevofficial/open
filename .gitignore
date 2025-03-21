@@ -1,3 +1,7 @@
+echo "data/" >> .gitignore
+git add .gitignore
+git commit -m "Ignore data directory"
+git push
 .DS_Store
 node_modules
 /build
